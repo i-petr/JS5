@@ -1,1 +1,1 @@
-https://github.com/i-petr/JS5/sherlock.html
+https://i-petr.github.io/JS5/sherlock.html
