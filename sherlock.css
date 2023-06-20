@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+}
+
+.top {
+    height: 80px;
+    background-color: #717171;
+}
+
+.bottom {
+    height: 80px;
+    background-color: #717171;
+}
+
+.main {
+    display: flex;
+    background-image: url(./sherlock.png);
+    height: calc(100vh - 160px);
+    width: 100%;
+    background-size: 100vw;
+    background-position: center;
+    justify-content: center;
+}
+
+h2 {
+    position: absolute;
+    margin: calc(226px - 80px) 0 0 0;
+    font-family: 'Inter';
+    font-size: 48px;
+    color: #fff;
+    height: 55px;
+}
+
+p {
+    margin: calc(411px - 80px) 0 0 0;
+    font-family: 'Inter';
+    font-style: italic;
+    text-align: justify;
+    align-items: center;
+    letter-spacing: 0.06em;
+    line-height: 29px;
+    font-size: 24px;
+    color: #fff;
+    width: 1069px; 
+}
+
+@media (min-width: 768px) {
+    body {
+        margin: 0;
+    }
+    
+    .top {
+        height: 80px;
+        background-color: #717171;
+    }
+    
+    .bottom {
+        height: 80px;
+        background-color: #717171;
+    }
+    
+    .main {
+        display: flex;
+        background-image: url(./sherlock.png);
+        height: calc(100vh - 160px);
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+        justify-content: center;
+    }
+    
+    h2 {
+        position: absolute;
+        margin: calc(130px - 80px) 0 0 0;
+        font-family: 'Inter';
+        font-size: 24px;
+        color: #fff;
+        height: 55px;
+    }
+    
+    p {
+        margin: calc(190px - 80px) 66px 0 66px;
+        font-family: 'Inter';
+        font-style: italic;
+        text-align: justify;
+        align-items: center;
+        letter-spacing: 0.06em;
+        line-height: 17px;
+        font-size: 14px;
+        color: #fff;
+        width: 400px; 
+    }
+}
+
+@media (min-width: 1024px) {
+    body {
+        margin: 0;
+    }
+    
+    .top {
+        height: 80px;
+        background-color: #717171;
+    }
+    
+    .bottom {
+        height: 80px;
+        background-color: #717171;
+    }
+    
+    .main {
+        display: flex;
+        background-image: url(./sherlock.png);
+        height: calc(100vh - 160px);
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+        justify-content: center;
+    }
+    
+    h2 {
+        position: absolute;
+        margin: calc(160px - 80px) 0 0 0;
+        font-family: 'Inter';
+        font-size: 36px;
+        color: #fff;
+        height: 55px;
+    }
+    
+    p {
+        margin: calc(220px - 80px) 66px 0 66px;
+        font-family: 'Inter';
+        font-style: italic;
+        text-align: justify;
+        align-items: center;
+        letter-spacing: 0.06em;
+        line-height: 30px;
+        font-size: 26px;
+        color: #fff;
+        width: 832px;
+    }
+}
