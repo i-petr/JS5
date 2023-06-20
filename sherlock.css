@@ -44,7 +44,7 @@ p {
     width: 1069px; 
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
     body {
         margin: 0;
     }
@@ -92,7 +92,7 @@ p {
     }
 }
 
-@media (min-width: 1024px) {
+@media (max-width: 1024px) {
     body {
         margin: 0;
     }
